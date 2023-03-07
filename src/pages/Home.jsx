@@ -4,18 +4,21 @@ const Home = () => {
   return (
     <>
       <div>
-        <h2>Welcome!</h2>
+        <h2 className="hwelcome">Welcome!</h2>
       </div>
 
       <Container>
         <Row>
+
+      
           <img
             className="patient-image-1"
             src="https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg"
             alt="patient-image1"
           />
+       
 
-          <Col xs={4}>
+          <Col xs={6}>
             <h4>Patient's Needs:</h4>
             <br /> Our own experience, based on years of caring for patients, is
             that people seeking medical care have the following needs:
@@ -39,7 +42,7 @@ const Home = () => {
         <Row>
           <Col></Col>
           <Col xs={3}></Col>
-          <Col>3 of 3</Col>
+          <Col></Col>
         </Row>
       </Container>
     </>

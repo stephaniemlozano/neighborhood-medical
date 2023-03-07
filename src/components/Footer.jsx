@@ -1,8 +1,13 @@
 const Footer = () => {
+
+    const copyrightDate = () => {
+        return new Date().getFullYear()
+      }
+
     return (
         <footer>
-            <p className="footer">
-            Copyright © Neighborhood Medical| | 2023 | all rights reserved
+            <p>
+            Copyright © Neighborhood Medical| | {copyrightDate()} | all rights reserved
             </p>
         </footer>
     )
