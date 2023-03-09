@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-
+import marchevent1 from "../assets/images/marchevent.jpg"
 const Home = () => {
   return (
     <>
@@ -8,6 +8,9 @@ const Home = () => {
       </div>
 
       <Container>
+        <Row>
+        <img className="marchevent" src={marchevent1} alt="march event" />
+        </Row>
         <Row>
 
       

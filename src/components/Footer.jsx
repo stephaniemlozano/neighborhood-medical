@@ -7,6 +7,9 @@ const Footer = () => {
     return (
         <footer>
             <p>
+                Donations link here || QR code here
+            </p>
+            <p>
             Copyright © Neighborhood Medical| | {copyrightDate()} | all rights reserved
             </p>
         </footer>

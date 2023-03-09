@@ -4,18 +4,25 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-style: normal;
+    background-color: #ADD8E6
 }
 
 
 .logo-image-1 {
-    width: 160px;
+    width: 120px;
     height: 100px;
+}
+
+.marchevent {
+    width :1090px;
+    height:800px;
 }
 
 .patient-image-1{
@@ -39,4 +46,8 @@ body {
 footer {
     text-align: center;
     margin-top: 30px;
+}
+
+.navbar {
+    background-color: #C19A6B;
 }
