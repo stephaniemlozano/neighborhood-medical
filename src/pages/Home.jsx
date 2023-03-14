@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import marchevent1 from "../assets/images/marchevent.jpg"
+import marchevent1 from "../assets/images/marchevent.jpg";
 const Home = () => {
   return (
     <>
@@ -9,20 +9,17 @@ const Home = () => {
 
       <Container>
         <Row>
-        <img className="marchevent" src={marchevent1} alt="march event" />
+          <img className="marchevent" src={marchevent1} alt="march event" />
         </Row>
         <Row>
-
-      
           <img
             className="patient-image-1"
             src="https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg"
             alt="patient-image1"
           />
-       
 
           <Col xs={6}>
-            <h4>Patient's Needs:</h4>
+            <h4 className>Patient's Needs:</h4>
             <br /> Our own experience, based on years of caring for patients, is
             that people seeking medical care have the following needs:
             <br />● To be treated with respect and dignity <br />
@@ -39,7 +36,6 @@ const Home = () => {
           </Col>
           <Col xs={6}></Col>
           <br />
-
         </Row>
 
         <Row>

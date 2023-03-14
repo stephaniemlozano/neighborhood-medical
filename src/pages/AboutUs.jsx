@@ -7,7 +7,7 @@ const AboutUs = () => {
         <Row>
           <Col xs={4}>
             <h4>Our Vision</h4>
-            <p>
+            <p className="pAboutUs">
               To develop a healthy community by redefining the medical culture
               and reducing health disparities.
             </p>
@@ -15,20 +15,24 @@ const AboutUs = () => {
         </Row>
 
         <Row>
-          <Col xs={4}>
+          <Col xs={6}>
             <h3>Our Mission</h3>
-            <p>
+            <p className="pAboutUs">
+              <ul>
               To increase access to quality care through mobilization of our
               _____community care teams within underrepresented communities and
               diverse populations encompassing our 5 core values.
+              </ul>
             </p>
           </Col>
         </Row>
 
         <Row>
-          <Col xs={4}>
+          <Col xs={6}>
             <h3>Our Values</h3>
-            <p>
+            <p className="pAboutUs">
+              <ul>
+
               <br /> Our 5 core values as an organization are:
               <br /> ● We are passionate in serving the community
               <br /> ● We are successful leaders when we work as a team ● We
@@ -39,10 +43,12 @@ const AboutUs = () => {
               services. With a patient-centered approach, our mission as a
               neighborhood medical team will address the social determinants
               that create obstacles in seeking care.
+
+              </ul>
             </p>
           </Col>
           
-          <Col>
+          <Col xs={6}>
           <img
             className="patient-image-2"
             src="https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg"

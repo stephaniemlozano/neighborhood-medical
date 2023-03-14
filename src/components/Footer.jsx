@@ -6,10 +6,10 @@ const Footer = () => {
 
     return (
         <footer>
-            <p>
+            <p className="pFooter">
                 Donations link here || QR code here
             </p>
-            <p>
+            < p className="pFooter">
             Copyright © Neighborhood Medical| | {copyrightDate()} | all rights reserved
             </p>
         </footer>

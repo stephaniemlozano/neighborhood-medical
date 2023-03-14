@@ -1,53 +1,78 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    background-color: #ADD8E6
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  background-color: #add8e6;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: small;
+  font-style: oblique;
+}
+
+.pAboutUs {
+  font-size: small;
+  font-size: medium;
+  text-align: left;
+  padding: 2%;
+}
+
+.pFooter {
+  font: small;
+  font-style: oblique;
+  font: lighter;
+}
 
 .logo-image-1 {
-    width: 120px;
-    height: 100px;
+  width: 120px;
+  height: 100px;
 }
 
 .marchevent {
-    width :1090px;
-    height:800px;
+  width: 85%;
+  height: 790px;
+  padding: 7%;
 }
 
-.patient-image-1{
-    width: 400px;
-    height: 260px;
+.patient-image-1 {
+  width: 400px;
+  height: 260px;
 }
 
-.patient-image-2{
-    width: 460px;
-    height: 260px;
+.patient-image-2 {
+  width: 460px;
+  height: 260px;
 }
 
 .hwelcome {
-    margin: 30px;
+  margin: 30px;
 }
-.htab:hover  {
-    box-shadow: 3px 4px 3px rgb(88, 86, 86);
-    margin: 1px;
+.htab:hover {
+  box-shadow: 3px 4px 3px rgb(88, 86, 86);
+  margin: 1px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .navbar {
-    background-color: #C19A6B;
+  background-color: #c19a6b;
 }
