@@ -2,9 +2,12 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import logo1 from "../assets/images/logoTransparentBg.png";
 const Header = () => {
   return (
-    <Navbar bg="transparent" variant={"light"} expand="lg">
+
+
+      
+    <Navbar bg="transparent" variant={"light"} expand="md">
       <Container className="navbar">
-        <img className="logo-image-1" src={logo1} alt="logo-image1" />
+      <img className="logo-image-1" src={logo1} alt="logo-image1" />      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" variant="tabs">
@@ -27,6 +30,7 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+  
   );
 };
 

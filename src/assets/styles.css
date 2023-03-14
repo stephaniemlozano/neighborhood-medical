@@ -10,14 +10,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   font-style: normal;
-  background-color: #add8e6;
+  background-color:#c19a6b;
 }
 
 h1 {
-  text-align: center;
-}
-
-h2 {
   text-align: center;
 }
 
@@ -42,17 +38,20 @@ p {
 .logo-image-1 {
   width: 120px;
   height: 100px;
+  margin: 15px;
 }
 
 .marchevent {
-  width: 85%;
-  height: 790px;
-  padding: 7%;
+  width: 500px;
+  height: 650px;
+  margin: 5px auto 20px auto;
+  background-color: rgb(242, 233, 222);
 }
 
 .patient-image-1 {
-  width: 400px;
+  width: 500px;
   height: 260px;
+  margin-top: 75px;
 }
 
 .patient-image-2 {
@@ -61,8 +60,11 @@ p {
 }
 
 .hwelcome {
-  margin: 30px;
+  margin: 30px 0px;
+  padding: auto;
+  text-align: center;
 }
+
 .htab:hover {
   box-shadow: 3px 4px 3px rgb(88, 86, 86);
   margin: 1px;
@@ -74,5 +76,13 @@ footer {
 }
 
 .navbar {
-  background-color: #c19a6b;
+  background-color: #add8e6;
+}
+
+div.row {
+  background-color: rgb(242, 233, 222);
+}
+
+.patient-needs {
+  justify-content:space-between;
 }
