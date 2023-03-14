@@ -11,12 +11,13 @@ const Home = () => {
           <img className='marchevent' src={marchevent1} alt='march event' />
         </Row>
         <Row className='patient-needs'>
+          <Col xs={11}>
           <img
             className='patient-image-1'
             src='https://www.practicebuilders.com/blog/wp-content/themes/pbblog/postimg/2021/july/Do-You-Understand-Your-Patients-Needs-700X246.jpg'
             alt='patient-image1'
           />
-
+          </Col>
           <Col xs={6}>
             <ul>
               <h4>Patient's Needs:</h4>
