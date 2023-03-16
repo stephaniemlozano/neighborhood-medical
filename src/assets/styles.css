@@ -93,3 +93,7 @@ div.row {
 .patient-needs {
   justify-content:space-between;
 }
+
+.contact { 
+  text-align: center;
+}
