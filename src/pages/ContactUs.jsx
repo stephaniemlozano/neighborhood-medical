@@ -10,7 +10,7 @@ const ContactUs = () => {
           <h2 className='hwelcome'>Contact Us</h2>
         </Row>
         <Row>
-          <Col xs={12}>
+          <Col xs={11}>
             <Table bordered hover className='contact'>
               <thead>
                 <tr>
@@ -25,13 +25,15 @@ const ContactUs = () => {
                   <td>Jacquie</td>
                   <td>Gonzalez</td>
                   <td>Founder</td>
-                  <td>nbhdmed@gmail.com</td>
+                  <a href="mailto:nbhdmed@gmail.com">nbhdmed@gmail.com</a>
                 </tr>
                 <tr>
                   <td>Hillary</td>
                   <td>Rodriguez</td>
                   <td>Founder</td>
-                  <td>nbhdmed@gmail.com</td>
+                  <td>
+                    <a href="mailto:nbhdmed@gmail.com">nbhdmed@gmail.com</a>
+                  </td>
                 </tr>
               </tbody>
             </Table>
@@ -40,12 +42,6 @@ const ContactUs = () => {
             <h2 className='hwelcome'>Come Meet Us!</h2>
             <img src={marchevent} alt="Health Event Flyer" className='marchevent'/>
           </Col>
-        </Row>
-
-        <Row>
-          <Col></Col>
-          <Col xs={3}></Col>
-          <Col></Col>
         </Row>
       </Container>
     </>
