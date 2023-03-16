@@ -49,9 +49,10 @@ p {
 }
 
 .patient-image-1 {
-  width: 500px;
-  height: 260px;
+  width: 400px;
+  height: 160px;
   margin-top: 75px;
+  padding: 3%;
 }
 
 .patient-image-2 {
@@ -59,6 +60,11 @@ p {
   height: 260px;
 }
 
+.qrcode {
+  width :100px;
+  height: 100px;
+  padding-bottom: 2%;
+}
 .hwelcome {
   margin: 30px 0px;
   padding: auto;

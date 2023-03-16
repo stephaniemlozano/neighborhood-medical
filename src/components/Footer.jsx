@@ -1,3 +1,5 @@
+import qrcode from "../assets/images/QR-Code-rev1.jpg";
+
 const Footer = () => {
 
     const copyrightDate = () => {
@@ -7,8 +9,11 @@ const Footer = () => {
     return (
         <footer>
             <p className="pFooter">
-                Donations link here || QR code here
+                To donate scan Zelle® QR code here: 
+                
             </p>
+                <img className="qrcode" src={qrcode} alt="QR Code" /> 
+
             < p className="pFooter">
             Copyright © Neighborhood Medical| | {copyrightDate()} | all rights reserved
             </p>
